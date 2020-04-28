@@ -32,9 +32,6 @@ header {
 
 .counter {
   margin-top: 15px;
-}
-
-.wrapper {
   height: auto;
   position: relative;
   text-align: left;
