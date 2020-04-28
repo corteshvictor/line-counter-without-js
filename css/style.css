@@ -45,9 +45,6 @@ header {
   counter-reset: line;
   display: block;
   height: 300px;
-  overflow: auto;
-  position: relative;
-  white-space: pre-line;
   width: 600px;
   font-size: 25px;
 }
