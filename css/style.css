@@ -68,3 +68,25 @@ header {
   font-size: 45px;
   font-weight: bold;
 }
+
+@-moz-document url-prefix() {
+  .text-area::before,
+  br {
+    counter-increment: line;
+  }
+
+  code::after {
+    content: counter(line);
+    background-color: green;
+    border-radius: 8px;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    position: absolute;
+    padding: 30px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    right: 0;
+    bottom: 0;
+  }
+}
