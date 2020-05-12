@@ -69,7 +69,9 @@ header {
   font-weight: bold;
 }
 
-@-moz-document url-prefix() {
+/*no es necesario este estilo porque el 
+error era que utilizaba la etiqueta code en vez de div*/
+/* @-moz-document url-prefix() {
   .text-area::before,
   br {
     counter-increment: line;
@@ -89,4 +91,4 @@ header {
     right: 0;
     bottom: 0;
   }
-}
+} */
